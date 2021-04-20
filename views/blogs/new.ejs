@@ -1,0 +1,30 @@
+<%- include("../partials/header") %>
+<%- include("../partials/navbar") %>
+<body style="  background-image: url('https://www.desktopbackground.org/download/o/2010/08/17/65421_theme-bin-blog-archive-cubes-hd-wallpapers_1920x1080_h.jpg');
+width: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color:white">
+<div class="container" style="margin-top:5rem;width:60%;">
+    <h1 style="color:white;">Add a New Blog</h1>
+    
+    <form method="POST" action="/blogs" >
+        <div class="mb-3">
+          <label for="name" class="form-label">Title</label>
+          <input type="text" class="form-control" id="name" name="blog[name]" placeholder="Title">
+          
+        </div>
+          <div class="mb-3">
+            <label for="desc" class="form-label">Description</label>
+            <textarea class="form-control" name="blog[desc]" id="desc" cols="30" rows="5"></textarea>
+          </div>
+       
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <br>
+        <br>
+      </form>
+</div>
+</body>
+
+<%- include("../partials/footer") %>

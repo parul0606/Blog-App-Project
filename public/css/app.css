@@ -1,0 +1,82 @@
+
+body{
+  background-image: url('https://www.desktopbackground.org/download/o/2010/08/17/65421_theme-bin-blog-archive-cubes-hd-wallpapers_1920x1080_h.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+}
+.blogs {
+    margin-top: 5rem;
+  }
+
+.nav-item :hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 0;
+  }
+  .card {
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+    margin: 10px auto;
+    width: 90%;
+    height: 95%;
+  }
+  
+  .navbar-brand {
+    font-family: "Kaushan Script", cursive;
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+  }
+
+  .d-flex button {
+    border: none;
+    font-size: 18px;
+  }
+  
+  .d-flex i {
+    font-size: 24px;
+  }
+  
+  .navbar {
+    box-shadow: 0px 1px 3px black;
+  }
+
+  #landing-page{
+    color: #fff;
+  }
+  .btn1{
+    border: 3px solid #fff;
+    background: none;
+    cursor: pointer;
+    font: 1.5em serif;
+    margin: 0.3em;
+    padding: 0.2em 1em;
+    transition: 0.25s;
+    color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.btn1:hover, .btn1:focus {
+  border-color: #4aa0e2;
+  color: #35a7ff;
+}
+.raise:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em #4aa0e2;
+  transform: translateY(-0.25em);
+  color: #35a7ff;
+}
+  
+  #heading {
+    width: 98%;
+    color: #525f81;
+    background-color: #e9ecef;
+    padding: 16px;
+    margin: 10px auto;
+    border-radius: 10px;
+  }

@@ -1,0 +1,25 @@
+<%- include("../partials/header") %>
+<%- include("../partials/navbar") %>
+
+<div class="container blogs" >
+    <section id="heading"> 
+      <h3 style="text-align: center;"><i class="fa fa-file-text" style="font-size:36px;"></i> Blogs</h4>
+    </section>
+
+    <div class="row">
+        <%for(let blog of blogs){%>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card" >
+                <div class="card-body">
+                  <h5 class="card-title"><%= blog.name %></h5>
+                  <p class="card-text"><%= blog.desc.substring(0,70) %></p>
+                  <a href="/blogs/<%= blog._id %>" class="btn btn-info">View Blog</a>
+                </div>
+            </div>
+          </div>
+        <%}%>
+     
+    </div>
+
+</div>
+<%- include("../partials/footer") %>
